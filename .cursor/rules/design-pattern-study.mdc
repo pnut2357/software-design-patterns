@@ -1,0 +1,32 @@
+---
+description: Project context for the software-design-patterns study repo (Dive Into Design Patterns by Alexander Shvets). Use when reading, explaining, adding, or refactoring pattern examples and notes.
+alwaysApply: true
+---
+
+# Software Design Patterns — study repo
+
+This repository is for **learning**, not shipping production software. The goal is
+to understand the Gang-of-Four / "Dive Into Design Patterns" (Alexander Shvets)
+patterns deeply, so clarity beats cleverness everywhere.
+
+## Layout
+- `sources/` — reference implementations grouped by language (`C#/`, `Java/`,
+  `Python/`) and by pattern. Treat these as canonical examples.
+- `notes/` — markdown write-ups explaining principles and patterns.
+- `codes/`, `plan-note/` — scratch and planning.
+- `sources/Dive_Into_Design_Patterns [Alexander_Shvets].pdf` — the source book.
+
+## How to help here
+- **Teach, don't just code.** When adding or changing an example, briefly state the
+  pattern's intent, the participants (e.g. Factory/Product, Subject/Observer), and
+  the tradeoff it makes. Use the book's terminology.
+- **Stay faithful to the canonical structure.** Mirror the existing per-language,
+  per-pattern folder conventions and naming. Don't invent a "better" structure for
+  a single example.
+- **Keep examples minimal and self-contained.** A pattern example should isolate the
+  pattern, not bury it in unrelated production concerns.
+- **Match the notes style** in `notes/` (Principle Definition → Problem → Solution →
+  Analogy → tradeoffs) when writing new notes.
+- When implementing the same pattern in a new language, keep the participant names
+  consistent across languages so they're easy to compare.
+- Prefer explaining *why* a pattern applies over adding features the exercise didn't ask for.
